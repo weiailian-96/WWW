@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8"/>
+		<style>
+			@keyframes west{
+				0%{background-position:0px;}
+				100%{background-position:-1190px;}
+			}
+			@keyframes wes{
+				0%{background-position:0px;}
+				100%{background-position:-1400px;}
+			}
+			@keyframes we{
+				0%{background-position:0px;}
+				100%{background-position:-1470px;}
+			}
+			#bg{height:789px;width:1920px;
+			background-image:url("xy_imgs/2.jpg");
+			background-repeat:no-repeat;
+			position:relative;}
+			#ts,#swk,#zbj,#shs{
+			background-repeat:no-repeat;
+			background-position:0px;
+			}
+			#ts
+			{background-image:url("xy_imgs/west_03_f962447.png");
+			position:absolute;top:500px;left:400px;
+			height:240px;width:170px;
+			animation:west 3.5s  infinite linear;
+			animation-timing-function:steps(7,end);
+			}
+			#swk
+			{background-image:url("xy_imgs/west_01_3ca39fe.png");position:absolute;top:500px;left:600px;
+			height:240px;width:200px;
+			animation:wes 3.5s infinite linear;
+			animation-timing-function:steps(7,end);
+			}
+			#zbj
+			{background-image:url("xy_imgs/west_02_47bad19.png");position:absolute;top:500px;left:800px;
+			height:240px;width:200px;
+			animation:wes 3.5s infinite linear;
+			animation-timing-function:steps(7,end);
+			}
+			#shs
+			{background-image:url("xy_imgs/west_04_6516d80.png");position:absolute;top:500px;left:1010px;
+			height:240px;width:210px;
+			animation:we 3.5s infinite linear;
+			animation-timing-function:steps(7,end);
+			}
+		</style>
+		
+	</head>
+	<body>
+		<div id="bg">
+			<div id="ts"></div>
+			<div id="swk"></div>
+			<div id="zbj"></div>
+			<div id="shs"></div>
+		</div>
+	</body>
+</html>
